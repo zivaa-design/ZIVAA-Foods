@@ -34,13 +34,13 @@ button{
 }
 
 .topbar{
-background:#D8F0FF;
-height:70px;
+background:#CBEAFF !important;
+height:85px;
 display:flex;
 align-items:center;
 justify-content:space-between;
-padding:0 15px;
-border-bottom:1px solid #ddd;
+padding:0 20px;
+border-bottom:1px solid #b5dfff;
 position:sticky;
 top:0;
 z-index:1000;
@@ -54,16 +54,16 @@ color:#4a2c2a;
 }
 
 .logo img{
-height:55px;
-width:160px;
+height:75px;
+width:200px;
 object-fit:contain;
 display:block;
 }
 
 .icons{
 display:flex;
-gap:28px;
-font-size:28px;
+gap:35px;
+font-size:30px;
 color:#4a2c2a;
 }
 
