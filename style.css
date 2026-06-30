@@ -32,3 +32,43 @@ button{
     cursor:pointer;
     margin-top:20px;
 }
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 20px;
+  background:#FFF8F1;
+  position:sticky;
+  top:0;
+}
+
+.menu{
+  font-size:28px;
+  color:#1F5E3B;
+}
+
+.logo img{
+  height:70px;
+}
+
+.icons{
+  display:flex;
+  gap:15px;
+  font-size:24px;
+}
+
+.hero{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.hero h1{
+  color:#1F5E3B;
+  font-size:42px;
+}
+
+.hero p{
+  font-size:20px;
+  color:#555;
+}
