@@ -33,29 +33,32 @@ button{
     margin-top:20px;
 }
 
-header{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:15px 20px;
-  background:#FFF8F1;
-  position:sticky;
-  top:0;
+.topbar{
+background:#FFF8F1;
+height:70px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 15px;
+border-bottom:1px solid #ddd;
 }
 
 .menu{
-  font-size:28px;
-  color:#1F5E3B;
+font-size:34px;
+color:#4a2c2a;
 }
 
 .logo img{
-  height:70px;
+height:50px;
+width:auto;
+display:block;
 }
 
 .icons{
-  display:flex;
-  gap:15px;
-  font-size:24px;
+display:flex;
+gap:18px;
+font-size:28px;
+color:#4a2c2a;
 }
 
 .hero{
