@@ -34,13 +34,18 @@ button{
 }
 
 .topbar{
-background:#FFF8F1;
+background:#D8F0FF;
 height:70px;
 display:flex;
 align-items:center;
 justify-content:space-between;
 padding:0 15px;
 border-bottom:1px solid #ddd;
+position:sticky;
+top:0;
+z-index:1000;
+padding:0 20px;
+height:80px;
 }
 
 .menu{
@@ -49,14 +54,15 @@ color:#4a2c2a;
 }
 
 .logo img{
-height:50px;
-width:auto;
+height:55px;
+width:160px;
+object-fit:contain;
 display:block;
 }
 
 .icons{
 display:flex;
-gap:18px;
+gap:28px;
 font-size:28px;
 color:#4a2c2a;
 }
