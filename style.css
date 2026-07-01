@@ -52,13 +52,13 @@ height:80px;
 font-size:34px;
 color:#4a2c2a;
 }
-
 .logo img{
 height:75px;
-width:300px;
-object-fit:fill;
+width:200px;
+object-fit:contain;
 display:block;
 }
+
 
 .icons{
 display:flex;
