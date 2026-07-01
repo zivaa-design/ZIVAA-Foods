@@ -54,8 +54,9 @@ color:#4a2c2a;
 }
 
 .logo img{
-height:80px;
-width:280px;
+height:75px;
+width:300px;
+object-fit:fill;
 display:block;
 }
 
