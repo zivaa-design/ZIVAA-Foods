@@ -119,3 +119,18 @@ background:#2196F3;
 width:24px;
 border-radius:20px;
 }
+
+.tagline-box{
+background:#ffffff;
+padding:15px 10px;
+text-align:center;
+}
+
+.tagline-box h2{
+margin:0;
+font-size:28px;
+color:#D4A017;
+font-weight:600;
+}
+
+
