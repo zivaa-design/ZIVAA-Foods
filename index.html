@@ -24,10 +24,59 @@
 
 </header>
 
-<section class="hero">
-  <h1>Traditional Indian Delights</h1>
-  <p>Freshly Made Coconut Laddu</p>
-  <button>Order Now</button>
-</section>
+<div class="banner-container">
+
+<div class="slider-wrapper">
+
+<div class="slider-track" id="sliderTrack">
+
+<img src="zivaa1.jpg" alt="Banner 1">
+<img src="zivaa2.jpg" alt="Banner 2">
+<img src="zivaa3.jpg" alt="Banner 3">
+<img src="zivaa4.jpg" alt="Banner 4">
+<img src="zivaa5.jpg" alt="Banner 5">
+
+</div>
+
+</div>
+
+<div class="slider-dots" id="sliderDots"></div>
+
+</div>
+
+<script>
+
+const track = document.getElementById("sliderTrack");
+const dotsContainer = document.getElementById("sliderDots");
+
+const slides = track.querySelectorAll("img");
+let current = 0;
+
+slides.forEach((_, i) => {
+const dot = document.createElement("div");
+dot.classList.add("dot");
+if(i === 0) dot.classList.add("active");
+dotsContainer.appendChild(dot);
+});
+
+const dots = document.querySelectorAll(".dot");
+
+function showSlide(index){
+track.style.transform = `translateX(-${index * 100}%)`;
+
+dots.forEach(dot => dot.classList.remove("active"));
+dots[index].classList.add("active");
+}
+
+setInterval(() => {
+current++;
+if(current >= slides.length){
+current = 0;
+}
+showSlide(current);
+}, 5000);
+
+</script>
+
 </body>
 </html>
