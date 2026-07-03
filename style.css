@@ -133,4 +133,52 @@ color:#D4A017;
 font-weight:600;
 }
 
+.products-section{
+background:#F5E8D5;
+padding:40px 20px;
+text-align:center;
+margin-top:30px;
+}
 
+.products-section h2{
+font-size:48px;
+font-weight:700;
+color:#8B1538;
+margin-bottom:10px;
+}
+
+.products-section p{
+font-size:22px;
+margin-bottom:30px;
+color:#333;
+}
+
+.product-grid{
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.product-card{
+background:#ffffff;
+border-radius:25px;
+padding:20px;
+width:30%;
+}
+
+.product-card img{
+width:100%;
+display:block;
+}
+
+.view-products-btn{
+display:block;
+background:#8B1538;
+color:white;
+text-decoration:none;
+padding:20px;
+border-radius:50px;
+font-size:28px;
+font-weight:600;
+margin-top:30px;
+}
