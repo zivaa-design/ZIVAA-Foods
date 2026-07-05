@@ -10,7 +10,7 @@
 
 <header class="topbar">
 
-<div class="menu">☰</div>
+<div class="menu" onclick="openMenu()">☰</div>
 
 <div class="logo">
 <img src="logo.jpg" alt="ZIVAA">
@@ -24,6 +24,41 @@
 
 </header>
 
+<div class="side-menu" id="sideMenu">
+
+<div class="menu-header">
+<span class="close-btn" onclick="closeMenu()">✕</span>
+</div>
+
+<a href="#">Home</a>
+<a href="#">Orders</a>
+<a href="#">Track your order</a>
+<a href="#">Products</a>
+<a href="#">Return Policy</a>
+<a href="#">About us</a>
+<a href="#">Contact us</a>
+<a href="#">Shipping Policy</a>
+<a href="#">Terms of Service</a>
+
+<div class="menu-bottom">
+<a href="#">👤 Log in</a>
+
+  <a href="#">
+<img src="facebook.jpg" class="social-icon">
+</a>
+
+<a href="#">
+<img src="instagram.jpg" class="social-icon">
+</a>
+
+<a href="#">
+<img src="youtube.png" class="social-icon">
+</a>
+
+</div>
+
+</div>
+  
 <div class="tagline-box">
   <h2>Traditional Indian Delights</h2>
 </div>  
@@ -106,6 +141,14 @@ current = 0;
 showSlide(current);
 }, 5000);
 
+function openMenu(){
+document.getElementById("sideMenu").classList.add("active");
+}
+
+function closeMenu(){
+document.getElementById("sideMenu").classList.remove("active");
+}
+  
 </script>
 
 </body>
