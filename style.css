@@ -212,13 +212,16 @@ left:0;
 }
 
 .menu-header{
-padding:25px;
-font-size:40px;
+display:flex;
+justify-content:flex-start;
+padding:20px 30px;
 }
 
 .close-btn{
+font-size:42px;
+color:#4a2033;
 cursor:pointer;
-color:#4a1d2f;
+line-height:1;
 }
 
 .side-menu a{
@@ -239,10 +242,27 @@ border-top:1px solid #e0d2c0;
 padding:25px 30px;
 display:flex;
 flex-direction:column;
-gap:35px;
+align-items:flex-start;
+gap:28px;
 }
 
 .social-icon{
+width:42px;
+height:42px;
+object-fit:contain;
+display:block;
+}
+
+.login-link{
+display:flex;
+align-items:center;
+gap:15px;
+font-size:20px;
+color:#4a2033;
+text-decoration:none;
+}
+
+.login-icon{
 width:42px;
 height:42px;
 object-fit:contain;
