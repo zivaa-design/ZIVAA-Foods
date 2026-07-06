@@ -256,15 +256,18 @@ display:block;
 .login-link{
 display:flex;
 align-items:center;
-gap:15px;
-font-size:20px;
-color:#4a2033;
+justify-content:flex-start;
+gap:12px;
 text-decoration:none;
+color:#4a2033;
+font-size:20px;
+font-weight:500;
 }
 
 .login-icon{
 width:42px;
 height:42px;
-object-fit:contain;
 display:block;
+object-fit:contain;
+flex-shrink:0;
 }
