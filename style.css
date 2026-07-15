@@ -254,16 +254,15 @@ display:block;
 }
 
 .login-link{
-display:inline-flex !important;
+display:flex !important;
 align-items:center;
-justify-content:flex-start;
-gap:12px;
+gap:18px;
+padding:0 !important;
+margin-bottom:25px;
 text-decoration:none;
 color:#4a2033;
-font-size:20px;
+font-size:22px;
 font-weight:500;
-width:100%;
-padding:0 !important;
 }
 
 .login-icon{
