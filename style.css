@@ -134,6 +134,7 @@ font-weight:600;
 }
 
 .products-section{
+margin-bottom:60px;
 background:#F5E8D5;
 padding:40px 20px;
 text-align:center;
@@ -274,30 +275,38 @@ flex-shrink:0;
 margin:0;
 }
 
-/* ===== OUR PRODUCTS NEW SECTION ===== */
+/* ===== OUR PRODUCTS ===== */
+.our-products{
+    width:100%;
+    background:#F8EEDB;
+    padding:45px 0 0;
+    overflow:hidden;
+}
+
+/* ... baaki desktop CSS ... */
+
+.packet{
+    width:250px;
+    display:block;
+    margin:auto;
+}
+
+@media (max-width:768px){
 
 .our-products{
-    background:#F8EEDB;
-    padding:20px 0 0;
+    padding-top:35px;
 }
 
 .our-products h2{
-  font-size:34px;
-    color:#8b1634;
-    margin:18px 0 25px;
-    font-weight:700;
+    font-size:34px;
 }
 
 .laddu-row{
-    text-align:center;
-    margin:15px 0 20px;
+    margin:10px 0 15px;
 }
 
 .laddu-row img{
-    width:100%;
-    max-width:320px;
-    display:block;
-    margin:0 auto;
+    width:260px;
 }
 
 .content-row{
@@ -305,78 +314,23 @@ margin:0;
     justify-content:space-between;
     align-items:flex-end;
     padding:0 18px;
-    margin-top:10px;
 }
 
 .dialogue{
     width:42%;
-    color:#7d1631;
-    font-weight:bold;
-    line-height:1.35;
 }
 
 .dialogue .bn{
-    font-size:34px;
-    margin-bottom:40px;
+    font-size:20px;
+    margin-bottom:30px;
 }
 
 .dialogue .hi{
-    font-size:30px;
-}
-
-.animation-area{
-    width:45%;
-    position:relative;
-    display:flex;
-    justify-content:flex-end;
-}
-
-.girl-window{
-    width:320px;
-}
-
-.packet-area{
-    background:#991b1e;
-    margin-top:-40px;
-    padding:80px 0;
-    text-align:center;
-}
-
-.packet{
-    width:280px;
-}
-
-@media(max-width:768px){
-
-.our-products h2{
-    font-size:32px;
-}
-
-.laddu-row img{
-    width:94%;
-}
-
-.content-row{
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-start;
-    padding:0 20px;
-}
-
-.dialogue{
-    width:42%;
-}
-
-.dialogue .bn{
     font-size:18px;
 }
 
-.dialogue .hi{
-    font-size:16px;
-}
-
 .animation-area{
-    width:50%;
+    width:48%;
 }
 
 .girl-window{
@@ -384,15 +338,13 @@ margin:0;
 }
 
 .packet-area{
-    background:#991B1E;
-    margin-top:0;
-    padding:40px 0 60px;
+    margin-top:-35px;
+    padding:55px 0 40px;
 }
 
 .packet{
-    width:220px;
-    display:block;
-    margin:auto;
+    width:180px;
 }
 
 }
+
