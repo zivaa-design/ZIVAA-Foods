@@ -278,8 +278,8 @@ margin:0;
 
 .our-products{
     width:100%;
-    background:#f7ebd9;
-    padding:40px 0 0;
+    background:#F8EEDB;
+    padding:25px 0 0;
     overflow:hidden;
 }
 
@@ -292,22 +292,23 @@ margin:0;
 }
 
 .laddu-row{
-    display:flex;
-    justify-content:center;
-    margin-bottom:35px;
+    text-align:center;
+    margin:15px 0 20px;
 }
 
 .laddu-row img{
-    width:90%;
-    max-width:650px;
+    width:92%;
+    max-width:360px;
     display:block;
+    margin:auto;
 }
 
 .content-row{
     display:flex;
     justify-content:space-between;
-    align-items:flex-start;
-    padding:0 8%;
+    align-items:flex-end;
+    padding:0 18px;
+    margin-top:10px;
 }
 
 .dialogue{
